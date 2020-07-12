@@ -1,0 +1,120 @@
+/*Styles*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap');
+
+.css-selector {
+font-family: 'Tangerine', serif;
+}
+
+body {
+  maring: 0;
+  font-family: 'Tangerine', serif;
+}
+
+img {
+  width: 100%;
+}
+
+img.rounded {
+  border-radius: 8px;
+}
+
+main h2 {
+  font-size: 28px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+main h3 {
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+main p {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5em;
+  margin-bottom: 0em;
+}
+
+a {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+a:link { 
+  color: blue; 
+  text-decoration: underline;
+}
+
+/*The Header*/
+
+header {
+  background-color: rgba(128, 128, 128, 0.521);
+  margin-bottom: 40px;
+  display: block;
+}
+
+header h1 {
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-family: 'Tangerine', serif;
+  font-size: 80px;
+}
+
+/* The Main Attraction */
+
+main .wrapper h2 {
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+main .intro {
+  font-size: 24px;
+  color: black;
+}
+
+/* Mobile Group and Items */
+
+.wrapper {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* Desktop Groups and Items */
+
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+/* Articles */
+
+#about {
+  background-color: antiquewhite;
+  padding: 20px 0 30px 0;
+  margin: 120px 0;
+}
